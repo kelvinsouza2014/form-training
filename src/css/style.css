@@ -2,3 +2,115 @@
     box-sizing: border-box;
 }
 
+/* PALETA DE CORES */
+    :root {
+        --navy_blue: #30376B;
+        --yellow: #FAAC1C;
+        --blue-font: #1D2772;
+        --white: #FFFFFF;
+        --almost_white: #EEEAEA;
+        --dark_grey: #433F3F;
+    }
+/* PALETA DE CORES */
+
+main {
+    background-color: var(--navy_blue);
+    font-family: 'Lexend', sans-serif;
+}
+
+.main-container {
+    background-color: var(--yellow);
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.phrase {
+    width: 460px;
+    padding: 313px 39px 438px 40px;
+    padding-left: 40px;
+    padding-right: 39px;
+    background-color: var(--navy_blue);
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.message p {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.header-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.message img {
+    margin-bottom: 73px;
+}
+
+#logo img {
+    width: 118px;
+    height: auto;
+    margin-bottom: 73px;
+}
+
+.login-account {
+    display: flex;
+    position: relative;
+    top: 15px;
+}
+
+.login-account p {
+    color: var(--white);
+}
+
+.login-account a {
+    color: var(--blue-font);
+    margin-left: 5px;
+}
+
+.form {
+    color: var(--blue-font);
+    padding: 60px 60px 80px 54px;
+    width: 100%;
+}
+
+.form legend {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.inputs {
+    width: 660px;
+    margin-bottom: 50px;
+    /* display: inline-block; */
+    /* display: inline; */
+    display: inline-block;
+}
+
+.inputs div {
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+.inputs label {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inputs input {
+    width: 300px;
+    height: 40px;
+}
+
+.terms-and-policies {
+    margin-bottom: 60px;
+}
+
+.create_account_button {
+    margin-bottom: 60px;
+}
