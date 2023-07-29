@@ -33,37 +33,33 @@
                 </section>
 
                 <form action="#" method="post" class="form">
-                    <!-- Definir os tipos de inputs -->
-                    <h2>Criar sua conta</h2>
+                    <fieldset>
+                        <legend><h2>Criar sua conta</h2></legend>
 
-                    <p>Primeiro Nome:</p>
-                    <label for="first-name"></label>
-                    <input type="text" id="first-name">
-                    
-                    <p>Último Nome:</p>
-                    <label for="last-name"></label>
-                    <input type="text" id="last-name">
-                    
-                    <p>Endereço:</p>
-                    <label for="email"></label>
-                    <input type="text" id="email">
+                        <label for="first-name">Primeiro Nome:</label>
+                        <input type="text" id="first-name" required>
+                        
+                        <label for="last-name">Último Nome:</label>
+                        <input type="text" id="last-name" required>
+                        
+                        <label for="email">Endereço:</label>
+                        <input type="text" id="email" required>
 
-                    <p>Criar Senha:</p>
-                    <label for="password"></label>
-                    <input type="text" id="password">
+                        <label for="password">Criar Senha:</label>
+                        <input type="password" id="password" required>
 
-                    <p>Confirmação de Senha:</p>
-                    <label for="password-confirmation"></label>
-                    <input type="text" id="password-confirmation">
+                        <label for="password-confirmation">Confirmação de Senha:</label>
+                        <input type="password" id="password-confirmation" required>
 
-                    <div class="terms-and-policies">
-                        <input type="text">
-                        <p>Criando sua conta, você concorda e aceita os termos e políticas privacidade.</p>
-                    </div>
+                        <div class="terms-and-policies">
+                            <input type="checkbox" id="checkbox-terms" required>
+                            <label for="checkbox-terms">Criando sua conta, você concorda e aceita os termos e políticas privacidade.</label>
+                        </div>
 
-                    <div>
-                        <button>Criar Conta</button>
-                    </div>
+                        <div>
+                            <button type="submit">Criar Conta</button>
+                        </div>
+                    </fieldset>
                 </form>
 
                 <section class="alternate-login">
