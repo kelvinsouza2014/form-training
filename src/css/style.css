@@ -13,25 +13,34 @@
     }
 /* PALETA DE CORES */
 
+body {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+}
+
 main {
     background-color: var(--navy_blue);
-    font-family: 'Lexend', sans-serif;
+    padding: 20px 40px 0 40px;
 }
 
 .main-container {
     background-color: var(--yellow);
     display: flex;
-    /* justify-content: space-between; */
+}
+
+.container {
+    width: 860px;
 }
 
 .phrase {
     width: 460px;
-    padding: 313px 39px 438px 40px;
+    padding: 250px 39px 350px 40px;
     padding-left: 40px;
     padding-right: 39px;
     background-color: var(--navy_blue);
     text-align: center;
-    margin-bottom: 100px;
+    position: relative;
+    left: 40px;
 }
 
 .message p {
@@ -43,14 +52,15 @@ main {
 .header-form {
     display: flex;
     justify-content: space-between;
+    margin: 40px 60px 0 54px;
 }
 
 .message img {
-    margin-bottom: 73px;
+    margin-bottom: 30px;
 }
 
 #logo img {
-    width: 118px;
+    width: 98px;
     height: auto;
     margin-bottom: 73px;
 }
@@ -59,6 +69,7 @@ main {
     display: flex;
     position: relative;
     top: 15px;
+    font-size: 0.8rem;
 }
 
 .login-account p {
@@ -72,25 +83,27 @@ main {
 
 .form {
     color: var(--blue-font);
-    padding: 60px 60px 80px 54px;
-    width: 100%;
+    position: relative;
+    left: 25px;
 }
 
 .form legend {
     font-size: 1.75rem;
     font-weight: 700;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
+}
+
+.form-container {
+    width: 660px;
+    padding: 60px 60px 60px 60px;
+    margin: 0 auto;
 }
 
 .inputs {
     width: 660px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     display: flex;
     justify-content: space-between;
-}
-
-.inputs div {
-    margin-bottom: 50px;
 }
 
 .inputs label {
@@ -98,11 +111,22 @@ main {
     font-weight: 600;
     display: block;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .inputs input {
     width: 300px;
     height: 40px;
+    padding-left: 5px;
+    border: #C1C0C0 solid 2px;
+}
+
+.inputs input:focus {
+    border: 3px solid var(--blue-font);
+}
+
+.label-input {
+    margin-bottom: 30px;
 }
 
 .subcontainer {
@@ -113,11 +137,65 @@ main {
     margin-bottom: 60px;
 }
 
-button {
+.terms-and-policies label, .terms-and-policies input {
     cursor: pointer;
 }
 
+.terms-and-policies input {
+    border: #C1C0C0 solid 2px;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+    border: #C1C0C0 solid 2px;
+}
+
 .create_account_button {
-    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-button {
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: var(--navy_blue);
+    color: var(--white);
+    border: #262c5b solid 2px;
+}
+
+.alternate-login {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.alternate-login button {
+    padding-left: 20px;
+}
+
+.alternate-login img {
+    position: relative;
+    left: 42px;
+    top: 5px;
+}
+
+#instagram {
+    top: 8px;
+    left: 46px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark_grey);
+    color: var(--almost_white);
+    padding: 8px 0;
+    font-weight: 400;
+    font-size: 0.6rem;
 }
 
