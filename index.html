@@ -10,8 +10,8 @@
         <title>Formulário</title>
         <!-- FONTES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Lexend:wght@400;600;700&family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Lexend:wght@400;600;700&family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
         <!-- FOLHAS DE ESTILO -->
         <link rel="stylesheet" href="./src/css/reset.css">
         <link rel="stylesheet" href="./src/css/style.css">
@@ -20,30 +20,35 @@
     <body>
         <main>
             <article class="main-container">
+                <!-- FRASE INSPIRADORA -->
                 <section class="phrase">
                     <section class="message">
                         <img src="./src/img/svg/icon/quotation-mark 1.svg" alt="Frase inspiradora">
                         <p>Dê valor ao que não tem preço.</p>
                     </section>
                 </section>
+                <!-- FRASE INSPIRADORA -->
+
+                <!-- CABEÇALHO -->
                 <div class="container">
                     <section class="form">
                         <section class="header-form">
                             <section id="logo">
                                 <a href="#"><img src="./src/img/png/logo.png" alt="Logo da página"></a>
                             </section>
-
                             <section class="login-account">
                                 <p>Já tem conta?</p>
                                 <a href="#" title="Entrar com a sua conta">Faça login aqui!</a>
                             </section>
                         </section>
+                <!-- CABEÇALHO -->
 
+                        <!-- FORMULÁRIO -->
                         <form action="#" method="post" class="form">
                             <fieldset class="form-container">
                                 <legend><h2>Criar sua conta</h2></legend>
-
-                                <section class="inputs"> <!--ADICIONAR OS PLACESHOLDERS E ESTILIZAR OS INPUTS-->
+                                
+                                <section class="inputs">
                                     <div class="subcontainer">
                                         <div class="label-input">
                                             <label for="first-name">Primeiro Nome:</label>
@@ -60,7 +65,7 @@
                                             <input type="password" id="password" placeholder="******" required>
                                         </div>
                                     </div>
-
+                                    
                                     <div class="subcontainer">
                                         <div class="label-input">
                                             <label for="last-name">Último Nome:</label>
@@ -71,7 +76,7 @@
                                             <label for="endereco">Endereço:</label>
                                             <input type="text" id="endereco" placeholder="Rua Exemplo, 556 - Vila Madalena" required>
                                         </div>
-
+                                        
                                         <div class="label-input">
                                             <label for="password-confirmation">Confirmação de Senha:</label>
                                             <input type="password" id="password-confirmation" placeholder="******" required>
@@ -83,31 +88,37 @@
                                     <input type="checkbox" id="checkbox-terms" required>
                                     <label for="checkbox-terms">Criando sua conta, você concorda e aceita os <a href="#">Termos</a> e <a href="#">Políticas privacidade</a>.</label>
                                 </div>
-
+                                
                                 <div class="create_account_button">
                                     <button type="submit" class="main-button" title="Criar sua conta">Criar Conta</button>
                                 </div>
                             </fieldset>
                         </form>
-                    
+                        <!-- FORMULÁRIO -->
+
+                        <!-- LOGIN ALTERNATIVO -->
                         <section class="alternate-login">
                             <div title="Cadastrar com o Facebook">
                                 <img src="./src/img/svg/icon/facebook 1.svg" alt="Logo do Facebook">
                                 <button>Cadastre-se usando o Facebook</button>
                             </div>
-
+                            
                             <div title="Cadastrar com o Instagram">
                                 <img src="./src/img/svg/icon/instagram 2.svg" alt="Logo do instagram" id="instagram">
                                 <button>Cadastre-se usando o Instagram</button>
                             </div>
                         </section>
+                        <!-- LOGIN ALTERNATIVO -->
                     </section>
                 </div>
             </article>
         </main>
+        <!-- RODAPÉ -->
         <footer>
             <p class="copyright">&copy; Kelvin Souza. Todos os Direitos Reservados.</p>
         </footer>
+        <!-- RODAPÉ -->
+
         <!-- TRADUTOR DE LIBRAS -->
         <section class="tradutor-de-libras">
             <div vw class="enabled">
