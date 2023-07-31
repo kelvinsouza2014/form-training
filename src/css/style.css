@@ -42,7 +42,6 @@
         width: 460px;
         display: flex;
         align-items: center;
-        /* padding: 250px 39px 350px 40px; */
         padding-left: 40px;
         padding-right: 39px;
         background-color: var(--navy_blue);
