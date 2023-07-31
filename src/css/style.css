@@ -26,6 +26,7 @@ main {
 .main-container {
     background-color: var(--yellow);
     display: flex;
+    justify-content: center;
 }
 
 .container {
