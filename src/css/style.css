@@ -40,7 +40,9 @@
 /* FRASE INSPIRADORA */
     .phrase {
         width: 460px;
-        padding: 250px 39px 350px 40px;
+        display: flex;
+        align-items: center;
+        /* padding: 250px 39px 350px 40px; */
         padding-left: 40px;
         padding-right: 39px;
         background-color: var(--navy_blue);
@@ -192,6 +194,7 @@
         display: flex;
         justify-content: space-between;
         padding: 0 100px;
+        margin-bottom: 70px;
     }
 
     .alternate-login button {
