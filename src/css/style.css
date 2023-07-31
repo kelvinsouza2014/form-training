@@ -111,6 +111,11 @@ main {
     margin-bottom: 60px;
 }
 
+button {
+    cursor: pointer;
+}
+
 .create_account_button {
     margin-bottom: 60px;
 }
+
