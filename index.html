@@ -35,7 +35,7 @@
 
                             <section class="login-account">
                                 <p>Já tem conta?</p>
-                                <a href="#">Faça login aqui!</a>
+                                <a href="#" title="Entrar com a sua conta">Faça login aqui!</a>
                             </section>
                         </section>
 
@@ -79,24 +79,24 @@
                                     </div>
                                 </section>
                                 
-                                <div class="terms-and-policies">
+                                <div class="terms-and-policies" title="Aceito os termos de políticas e privacidade">
                                     <input type="checkbox" id="checkbox-terms" required>
-                                    <label for="checkbox-terms">Criando sua conta, você concorda e aceita os termos e políticas privacidade.</label>
+                                    <label for="checkbox-terms">Criando sua conta, você concorda e aceita os <a href="#">Termos</a> e <a href="#">Políticas privacidade</a>.</label>
                                 </div>
 
                                 <div class="create_account_button">
-                                    <button type="submit" class="main-button">Criar Conta</button>
+                                    <button type="submit" class="main-button" title="Criar sua conta">Criar Conta</button>
                                 </div>
                             </fieldset>
                         </form>
                     
                         <section class="alternate-login">
-                            <div>
+                            <div title="Cadastrar com o Facebook">
                                 <img src="./src/img/svg/icon/facebook 1.svg" alt="Logo do Facebook">
                                 <button>Cadastre-se usando o Facebook</button>
                             </div>
 
-                            <div>
+                            <div title="Cadastrar com o Instagram">
                                 <img src="./src/img/svg/icon/instagram 2.svg" alt="Logo do instagram" id="instagram">
                                 <button>Cadastre-se usando o Instagram</button>
                             </div>
@@ -108,6 +108,23 @@
         <footer>
             <p class="copyright">&copy; Kelvin Souza. Todos os Direitos Reservados.</p>
         </footer>
+        <!-- TRADUTOR DE LIBRAS -->
+        <section class="tradutor-de-libras">
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                    <div class="vw-plugin-top-wrapper"></div>
+                </div>
+            </div>
+            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+                </script>
+        </section>
+        <!-- TRADUTOR DE LIBRAS -->
+        
+        <!-- CHAMADA DA JS -->
         <script src="./src/js/main.js"></script>
+        <!-- CHAMADA DA JS -->
     </body>
 </html>

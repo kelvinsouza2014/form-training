@@ -131,10 +131,17 @@ main {
 
 .subcontainer {
     width: 300px;
+    margin-bottom: 20px;
 }
 
 .terms-and-policies {
-    margin-bottom: 60px;
+    font-size: 0.8rem;
+    margin-bottom: 50px;
+}
+
+.terms-and-policies a {
+    text-decoration: none;
+    color: var(--dark_grey);
 }
 
 .terms-and-policies label, .terms-and-policies input {
@@ -181,6 +188,7 @@ button {
     position: relative;
     left: 42px;
     top: 5px;
+    cursor: pointer;
 }
 
 #instagram {
