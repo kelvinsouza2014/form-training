@@ -152,6 +152,10 @@
         color: var(--dark_grey);
     }
 
+    .terms-and-policies a:hover {
+        text-decoration: underline;
+    }
+
     .terms-and-policies label, .terms-and-policies input {
         cursor: pointer;
     }
