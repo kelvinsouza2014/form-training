@@ -92,7 +92,7 @@
 /* CABEÇALHO */
 
 /* FORMULÁRIO */
-    .form {
+    #form {
         color: var(--blue-font);
         position: relative;
         left: 25px;
@@ -179,7 +179,7 @@
         justify-content: center;
     }
 
-    .main-button {
+    #main-button {
         text-transform: uppercase;
         font-weight: 700;
         background-color: var(--navy_blue);
