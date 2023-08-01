@@ -6,7 +6,7 @@ const email = document.querySelector("#email");
 const address = document.querySelector("#address");
 const password = document.querySelector("#password");
 const passwordConfirmation = document.querySelector("#password-confirmation");
-const checkboxTerms = document.querySelector("#checkbox-terms")
+const checkboxTerms = document.querySelector("#checkbox-terms");
 const mainButton = document.querySelector("#main-button");
 // DOM (Chamada do HTML)
 
