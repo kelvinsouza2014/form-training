@@ -33,6 +33,35 @@ form.addEventListener("submit", (event) => {
         return;
     }
 
+    if (address.value === "") {
+        alert("Por favor, preencher o seu endereço");
+        return;
+    }
+
+    // // Verificar se o endereço está vazio e se passa na validação
+    // if (address.value === "" || !isAddressValid(address.value)) {
+    //     alert("O endereço deve conter o logradouro e o bairro separado por um traço (-)");
+    //     return;
+    // }
+
+    //Verificar se a senha foi preenchida
+    if (!validatePassword(password.value, 6)) {
+        alert("A senha precisa ter no mínimo 6 caracteres.");
+        return;
+    }
+
+    // Verificar se as senhas são iguais
+    if (passwordConfirmation.value != password.value) {
+        alert("As senhas devem ser iguais");
+        return;
+    }
+
+    // Verificar se o checkbox de termos está marcado
+    if (!checkboxTerms.checked) {
+        alert("Você precisa aceitar os termos antes de prosseguir.");
+        return;
+    }
+
     // Caso todos os campos estejam preenchidos , envie o formulário
     form.submit();
 });
@@ -48,4 +77,23 @@ function isEmailValid(email) {
     return false;
 }
 
+// // Função de validação de endereço
+// function isAddressValid(address) {
+//     const addressRegex = new RegExp(/^[a-zA-Z]+ +[a-zA-Z]+\,[0-9]+ +[a-zA-Z]$/);
+
+//     if (addressRegex.test(address)) {
+//         return true;
+//     }
+
+//     return false;
+// }
+
 // Função de validação de senha
+function validatePassword(password, minDigits) {
+    if (password.length >= minDigits) {
+        // Senha válida
+        return true;
+    }
+    // Senha inválida
+    return false;
+}
