@@ -16,19 +16,19 @@ form.addEventListener("submit", (event) => {
     event.preventDefault();
 
     // Verificar se o nome está vazio
-    if(firstName.value === "") {
+    if (firstName.value === "") {
         alert("Por favor, preencher o seu primeiro nome");
         return;
     }
 
     // Verificar se o sobrenome está vazio
-    if(lastName.value === "") {
+    if (lastName.value === "") {
         alert("Por favor, preencher o seu último nome");
         return;
     }
 
     // Verificar se o e-mail está vazio e se passa na validação
-    if(email.value === "" || !isEmailValid(email.value)) {
+    if (email.value === "" || !isEmailValid(email.value)) {
         alert("Preencher o seu e-mail");
         return;
     }
@@ -37,15 +37,15 @@ form.addEventListener("submit", (event) => {
     form.submit();
 });
 
+// Função de validação de e-mail
 function isEmailValid(email) {
+    const emailRegex = new RegExp(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,}$/);
 
-    const emailRegex = new RageExp(
-        /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,}$/
-    );
-
-    if(emailRegex.test(email)) {
+    if (emailRegex.test(email)) {
         return true;
     }
 
     return false;
 }
+
+// Função de validação de senha
