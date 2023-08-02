@@ -39,19 +39,16 @@ main {
 
 /* FRASE INSPIRADORA */
 .phrase {
-    width: 460px;
+    width: 310px;
     display: flex;
     align-items: center;
-    padding-left: 40px;
-    padding-right: 39px;
+    padding: 0 0px;
     background-color: var(--navy_blue);
     text-align: center;
-    position: relative;
-    left: 40px;
 }
 
 .message p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
     color: var(--white);
 }
@@ -59,7 +56,7 @@ main {
 .header-form {
     display: flex;
     justify-content: space-between;
-    margin: 40px 60px 0 54px;
+    margin: 30px 60px -20px 54px;
 }
 
 .message img {
@@ -99,18 +96,18 @@ main {
 }
 
 .form legend {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
 .form-container {
     width: 660px;
-    padding: 60px 60px 60px 60px;
+    padding: 40px 60px 45px 60px;
     margin: 0 auto;
 }
 
 .inputs {
-    width: 660px;
+    width: 600px;
     display: flex;
     justify-content: space-between;
 }
@@ -124,10 +121,11 @@ main {
 }
 
 .inputs input {
-    width: 300px;
-    height: 40px;
+    width: 250px;
+    height: 30px;
     padding-left: 5px;
     border: #c1c0c0 solid 2px;
+    border-radius: 3px;
 }
 
 .inputs input:focus {
@@ -141,12 +139,12 @@ main {
 
 .subcontainer {
     width: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .terms-and-policies {
     font-size: 0.8rem;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 
 .terms-and-policies a {
@@ -168,12 +166,20 @@ main {
 }
 
 button {
-    width: 300px;
-    height: 40px;
+    width: 250px;
+    height: 30px;
     cursor: pointer;
     font-family: "Lexend", sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     border: #c1c0c0 solid 2px;
+    font-size: 0.75rem;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #e4e2e2;
+    border: #ffffff;
+    transition: 0.5s;
 }
 
 .create_account_button {
@@ -182,11 +188,20 @@ button {
 }
 
 #main-button {
+    width: 250px;
+    height: 35px;
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 0.8rem;
     background-color: var(--navy_blue);
     color: var(--white);
     border: #262c5b solid 2px;
+}
+
+#main-button:hover {
+    background-color: #394282;
+    border: #394282 solid 3px;
+    transition: 0.5s;
 }
 /* FORMULÁRIO */
 
@@ -194,24 +209,30 @@ button {
 .alternate-login {
     display: flex;
     justify-content: space-between;
-    padding: 0 100px;
-    margin-bottom: 70px;
+    padding: 0 140px;
+    margin-bottom: 50px;
 }
 
 .alternate-login button {
     padding-left: 20px;
 }
 
-.alternate-login img {
+#facebook {
+    width: auto;
+    height: 15px;
     position: relative;
-    left: 42px;
-    top: 5px;
+    top: 3px;
+    left: 38px;
     cursor: pointer;
 }
 
 #instagram {
-    top: 8px;
-    left: 46px;
+    width: auto;
+    height: 18px;
+    top: 5px;
+    left: 37px;
+    position: relative;
+    cursor: pointer;
 }
 /* LOGIN ALTERNATIVO */
 
