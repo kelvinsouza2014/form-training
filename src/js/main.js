@@ -16,13 +16,13 @@ form.addEventListener("submit", (event) => {
     event.preventDefault();
 
     // Verificar se o nome está vazio
-    if (firstName.value === "") {
+    if(firstName.value === "") {
         alert("Por favor, preencher o seu primeiro nome");
         return;
     }
 
     // Verificar se o sobrenome está vazio
-    if (lastNameName.value === "") {
+    if(lastName.value === "") {
         alert("Por favor, preencher o seu último nome");
         return;
     }
