@@ -61,7 +61,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     <img align="center" alt="css" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
     <img align="center" alt="js" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
     <img align="center" alt="figma" src="https://img.shields.io/badge/Figma-EC4B1D?style=for-the-badge&logo=figma&logoColor=white"/>
-    <img align="center" alt="markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"/>
+    <img align="center" alt="markdown" src="https://img.shields.io/badge/Markdown-403d3d?style=for-the-badge&logo=markdown&logoColor=white"/>
 </div>
 
 <br>
