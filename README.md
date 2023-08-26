@@ -2,7 +2,7 @@
 
 <h1 align="center"> 📌KS Form</h1>
 
-Página de cadastro (formulário), com validações em JavaScript. Contando com um design moderno e de contraste.
+Página de cadastro (formulário), com validações em JavaScript. Contando com um design moderno e de contraste harmonioso.
 
 <br>
 
