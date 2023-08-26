@@ -26,28 +26,16 @@ Página de cadastro (formulário), com validações em JavaScript. Contando com 
 
 <br>
 
-## ⭐ **Características**
-
-- 
-- 
-- 
-- 
-- 
-
-<br>
-
 ## 📂 Temas abordados
-
-Lorem Ipsum is simply:
 
 - HTML semântico
 - Fontes externas
-- Propriedades CSS
 - Pseudo-classe
 - Medidas relativas
 - Flexbox
 - Selector raiz
 - Validação de formulário
+- Acessibilidade
 
 <br>
 
