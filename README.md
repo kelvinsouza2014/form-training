@@ -17,7 +17,6 @@ Página de cadastro (formulário), com validações em JavaScript. Contando com 
 <br>
 
 ## 📎 **Sumário**
-- ⭐ Características
 - 📂 Temas abordados
 - 🏆 Desafio
 - ⚙ Tecnologias
