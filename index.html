@@ -1,165 +1,157 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <!-- META TAGS -->
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- ÍCONE DA PÁGINA -->
-        <link rel="shortcut icon" href="./src/img/svg/icon/favicon.ico.svg" type="image/x-icon" />
-        <!-- TÍTULO DA PÁGINA -->
-        <title>KS Formulário</title>
-        <!-- FONTES -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Lexend:wght@400;600;700&family=Roboto:wght@300;500;900&display=swap"
-            rel="stylesheet"
-        />
-        <!-- FOLHAS DE ESTILO -->
-        <link rel="stylesheet" href="./src/css/reset.css" />
-        <link rel="stylesheet" href="./src/css/style.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-    </head>
-    <body>
-        <main>
-            <article class="main-container">
-                <!-- FRASE INSPIRADORA -->
-                <section class="phrase">
-                    <section class="message">
-                        <img src="./src/img/svg/icon/quotation-mark 1.svg" alt="Frase inspiradora" />
-                        <p>Dê valor ao que não tem preço.</p>
-                    </section>
-                </section>
-                <!-- FRASE INSPIRADORA -->
-
-                <!-- CABEÇALHO -->
-                <div class="container">
-                    <section class="form">
-                        <section class="header-form">
-                            <section id="logo">
-                                <a href="#"
-                                    ><h1><img src="./src/img/png/logo.png" alt="Logo da página" /></h1
-                                ></a>
-                            </section>
-                            <section class="login-account">
-                                <p>Já tem conta?</p>
-                                <a href="#" title="Entrar com a sua conta">Faça login aqui!</a>
-                            </section>
-                        </section>
-                        <!-- CABEÇALHO -->
-
-                        <!-- FORMULÁRIO -->
-                        <form action="#" method="post" id="form">
-                            <fieldset class="form-container">
-                                <legend><h2>Criar sua conta</h2></legend>
-
-                                <section class="inputs">
-                                    <div class="subcontainer">
-                                        <div class="label-input">
-                                            <label for="first-name">Primeiro Nome:</label>
-                                            <input type="text" id="first-name" placeholder="José" />
-                                        </div>
-
-                                        <div class="label-input">
-                                            <label for="email">E-mail:</label>
-                                            <input type="email" id="email" placeholder="exemplo@exemplo.com" />
-                                        </div>
-
-                                        <div class="label-input">
-                                            <label for="password">Criar Senha:</label>
-                                            <input type="password" id="password" placeholder="******" />
-                                        </div>
-                                    </div>
-
-                                    <div class="subcontainer">
-                                        <div class="label-input">
-                                            <label for="last-name">Último Nome:</label>
-                                            <input type="text" id="last-name" placeholder="Silva" />
-                                        </div>
-
-                                        <div class="label-input">
-                                            <label for="address">Endereço:</label>
-                                            <input
-                                                type="text"
-                                                id="address"
-                                                placeholder="Rua Exemplo, 556 - Vila Madalena"
-                                            />
-                                        </div>
-
-                                        <div class="label-input">
-                                            <label for="password-confirmation">Confirmação de Senha:</label>
-                                            <input type="password" id="password-confirmation" placeholder="******" />
-                                        </div>
-                                    </div>
-                                </section>
-
-                                <div
-                                    class="terms-and-policies"
-                                    title="Aceito os termos de uso e política de privacidade"
-                                >
-                                    <input type="checkbox" id="checkbox-terms" />
-                                    <label for="checkbox-terms"
-                                        >Criando sua conta, você concorda e aceita os
-                                        <a href="#" title="Acessar os termos de uso" target="_blank">Termos de uso</a> e
-                                        <a href="#" title="Acessar a política de privacidade" target="_blank"
-                                            >Política de privacidade</a
-                                        >.</label
-                                    >
-                                </div>
-
-                                <div class="create_account_button">
-                                    <button type="submit" id="main-button" title="Criar sua conta">Criar Conta</button>
-                                </div>
-                            </fieldset>
-                        </form>
-                        <!-- FORMULÁRIO -->
-
-                        <!-- LOGIN ALTERNATIVO -->
-                        <section class="alternate-login">
-                            <div title="Cadastrar com o Facebook">
-                                <img src="./src/img/svg/icon/facebook 1.svg" alt="Logo do Facebook" id="facebook" />
-                                <button>Cadastre-se usando o Facebook</button>
-                            </div>
-
-                            <div title="Cadastrar com o Instagram">
-                                <img src="./src/img/svg/icon/instagram 2.svg" alt="Logo do instagram" id="instagram" />
-                                <button>Cadastre-se usando o Instagram</button>
-                            </div>
-                        </section>
-                        <!-- LOGIN ALTERNATIVO -->
-                    </section>
-                </div>
-            </article>
-        </main>
-        <!-- RODAPÉ -->
-        <footer>
-            <p class="copyright">&copy; Kelvin Souza. Todos os Direitos Reservados.</p>
-        </footer>
-        <!-- RODAPÉ -->
-
-        <!-- TRADUTOR DE LIBRAS -->
-        <section class="tradutor-de-libras">
-            <div vw class="enabled">
-                <div vw-access-button class="active"></div>
-                <div vw-plugin-wrapper>
-                    <div class="vw-plugin-top-wrapper"></div>
-                </div>
-            </div>
-            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-            <script>
-                new window.VLibras.Widget("https://vlibras.gov.br/app");
-            </script>
+  <head>
+    <!-- META TAGS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ÍCONE DA PÁGINA -->
+    <link rel="shortcut icon" href="./src/img/svg/icon/favicon.ico.svg" type="image/x-icon" />
+    <!-- TÍTULO DA PÁGINA -->
+    <title>KS Form</title>
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Lexend:wght@400;600;700&family=Roboto:wght@300;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FOLHAS DE ESTILO -->
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <article class="main-container">
+        <!-- FRASE INSPIRADORA -->
+        <section class="phrase">
+          <section class="message">
+            <img src="./src/img/svg/icon/quotation-mark 1.svg" alt="Frase inspiradora" />
+            <p>Dê valor ao que não tem preço.</p>
+          </section>
         </section>
-        <!-- TRADUTOR DE LIBRAS -->
+        <!-- FRASE INSPIRADORA -->
 
-        <!-- CHAMADA DO JS -->
-        <script src="./src/js/main.js"></script>
-        <!-- CHAMADA DO JS -->
-    </body>
+        <!-- CABEÇALHO -->
+        <div class="container">
+          <section class="form">
+            <section class="header-form">
+              <section id="logo">
+                <a href="#"
+                  ><h1><img src="./src/img/png/logo.png" alt="Logo da página" /></h1
+                ></a>
+              </section>
+              <section class="login-account">
+                <p>Já tem conta?</p>
+                <a href="#" title="Entrar com a sua conta">Faça login aqui!</a>
+              </section>
+            </section>
+            <!-- CABEÇALHO -->
+
+            <!-- FORMULÁRIO -->
+            <form action="#" method="post" id="form">
+              <fieldset class="form-container">
+                <legend><h2>Criar sua conta</h2></legend>
+
+                <section class="inputs">
+                  <div class="subcontainer">
+                    <div class="label-input">
+                      <label for="first-name">Primeiro Nome:</label>
+                      <input type="text" id="first-name" placeholder="José" />
+                    </div>
+
+                    <div class="label-input">
+                      <label for="email">E-mail:</label>
+                      <input type="email" id="email" placeholder="exemplo@exemplo.com" />
+                    </div>
+
+                    <div class="label-input">
+                      <label for="password">Criar Senha:</label>
+                      <input type="password" id="password" placeholder="******" />
+                    </div>
+                  </div>
+
+                  <div class="subcontainer">
+                    <div class="label-input">
+                      <label for="last-name">Último Nome:</label>
+                      <input type="text" id="last-name" placeholder="Silva" />
+                    </div>
+
+                    <div class="label-input">
+                      <label for="address">Endereço:</label>
+                      <input type="text" id="address" placeholder="Rua Exemplo, 556 - Vila Madalena" />
+                    </div>
+
+                    <div class="label-input">
+                      <label for="password-confirmation">Confirmação de Senha:</label>
+                      <input type="password" id="password-confirmation" placeholder="******" />
+                    </div>
+                  </div>
+                </section>
+
+                <div class="terms-and-policies" title="Aceito os termos de uso e política de privacidade">
+                  <input type="checkbox" id="checkbox-terms" />
+                  <label for="checkbox-terms"
+                    >Criando sua conta, você concorda e aceita os
+                    <a href="#" title="Acessar os termos de uso" target="_blank">Termos de uso</a> e
+                    <a href="#" title="Acessar a política de privacidade" target="_blank">Política de privacidade</a
+                    >.</label
+                  >
+                </div>
+
+                <div class="create_account_button">
+                  <button type="submit" id="main-button" title="Criar sua conta">Criar Conta</button>
+                </div>
+              </fieldset>
+            </form>
+            <!-- FORMULÁRIO -->
+
+            <!-- LOGIN ALTERNATIVO -->
+            <section class="alternate-login">
+              <div title="Cadastrar com o Facebook">
+                <img src="./src/img/svg/icon/facebook 1.svg" alt="Logo do Facebook" id="facebook" />
+                <button>Cadastre-se usando o Facebook</button>
+              </div>
+
+              <div title="Cadastrar com o Instagram">
+                <img src="./src/img/svg/icon/instagram 2.svg" alt="Logo do instagram" id="instagram" />
+                <button>Cadastre-se usando o Instagram</button>
+              </div>
+            </section>
+            <!-- LOGIN ALTERNATIVO -->
+          </section>
+        </div>
+      </article>
+    </main>
+    <!-- RODAPÉ -->
+    <footer>
+      <p class="copyright">&copy; Kelvin Souza. Todos os Direitos Reservados.</p>
+    </footer>
+    <!-- RODAPÉ -->
+
+    <!-- TRADUTOR DE LIBRAS -->
+    <section class="tradutor-de-libras">
+      <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget("https://vlibras.gov.br/app");
+      </script>
+    </section>
+    <!-- TRADUTOR DE LIBRAS -->
+
+    <!-- CHAMADA DO JS -->
+    <script src="./src/js/main.js"></script>
+    <!-- CHAMADA DO JS -->
+  </body>
 </html>
