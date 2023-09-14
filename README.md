@@ -2,7 +2,7 @@
 
 <h1 align="center"> 📌KS Form</h1>
 
-Página de formulário com um layout moderno e harmonioso.
+Página de cadastro (formulário), com validações em JavaScript. Contando com um design moderno e de contraste harmonioso.
 
 <br>
 
@@ -17,7 +17,6 @@ Página de formulário com um layout moderno e harmonioso.
 <br>
 
 ## 📎 **Sumário**
-- ⭐ Características
 - 📂 Temas abordados
 - 🏆 Desafio
 - ⚙ Tecnologias
@@ -26,28 +25,16 @@ Página de formulário com um layout moderno e harmonioso.
 
 <br>
 
-## ⭐ **Características**
-
-- 
-- 
-- 
-- 
-- 
-
-<br>
-
 ## 📂 Temas abordados
-
-Lorem Ipsum is simply:
 
 - HTML semântico
 - Fontes externas
-- Propriedades CSS
 - Pseudo-classe
 - Medidas relativas
 - Flexbox
 - Selector raiz
 - Validação de formulário
+- Acessibilidade
 
 <br>
 
@@ -72,7 +59,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 <br>
 
 ## 💻 Demonstração
-Você pode acessar ao resultado final do projeto <a href="[ URL ]" target="_blank">Clicando aqui</a>.
+Você pode acessar ao resultado final do projeto <a href="https://kelvinsouza2014.github.io/ks-form/" target="_blank">Clicando aqui</a>.
 
 <br>
 
